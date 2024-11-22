@@ -7,11 +7,11 @@ const Footer = () => {
         <div className="mt-16 basis-1/2 md:mt-0">
           <img alt="logo" src={Logo} className="h-8" />
           <p className="my-5 text-gray-400">
-            Bodyfluence - Dein Partner für maximale Leistungsfähigkeit und Transformation.
-            Erreiche dein volles Potenzial durch optimierte Hormone, wissenschaftlich fundierte 
-            Supplementierung und effektive Routinen.
+             Marco Fischer - Dein Performance Coach für persönliche Transformation.
+            Erreiche dein volles Potenzial durch individuelles Coaching, effektive
+            Trainingsmethoden und nachhaltige Veränderung.
           </p>
-          <p className="text-gray-500"> 2024 Bodyfluence. Alle Rechte vorbehalten.</p>
+          <p className="text-gray-500"> ©2024 OAKMIND. Alle Rechte vorbehalten.</p>
           <div className="mt-4 flex gap-4">
             <a
               href="https://instagram.com/yourusername"
