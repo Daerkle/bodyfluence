@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>https://healthconsultingrieger.de</loc>
+	<lastmod>2024-11-22</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://healthconsultingrieger.de/referenzen.html</loc>
+	<lastmod>2024-11-22</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/Fitness%201.jpg</image:loc>
+	<image:title>Fitness 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/Fitness%201.webp</image:loc>
+	<image:title>Fitness 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/Fitness%209.jpg</image:loc>
+	<image:title>Fitness 9</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/Fitness%209.webp</image:loc>
+	<image:title>Fitness 9</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/Fitness%2010.jpg</image:loc>
+	<image:title>Fitness 10</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/Fitness%2010.webp</image:loc>
+	<image:title>Fitness 10</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://healthconsultingrieger.de/impressum.html</loc>
+	<lastmod>2024-11-22</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://healthconsultingrieger.de/datenschutzerklärung.html</loc>
+	<lastmod>2024-11-22</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://healthconsultingrieger.de/anamnesebogen.html</loc>
+	<lastmod>2024-11-22</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://healthconsultingrieger.de/about.html</loc>
+	<lastmod>2024-11-22</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/IMG_9764.jpg</image:loc>
+	<image:title>april 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/IMG_9764.webp</image:loc>
+	<image:title>april 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/IMG_4496.JPG</image:loc>
+	<image:title>april 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/IMG_4496.webp</image:loc>
+	<image:title>april 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/IMG_5694.jpg</image:loc>
+	<image:title>april 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/IMG_5694.webp</image:loc>
+	<image:title>april 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/tim.jpeg</image:loc>
+	<image:title>april 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/tim.webp</image:loc>
+	<image:title>april 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/IMG_6012.JPG</image:loc>
+	<image:title>april 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://healthconsultingrieger.de/img/IMG_6012.webp</image:loc>
+	<image:title>april 1</image:title>
+	</image:image>
+</url>
+</urlset>

@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 8%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 0 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 0 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 100% 40%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 100% 50%;
+    --radius: 0.5rem;
+  }
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('/fonts/HelveticaNeue_00.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src: url('/fonts/HelveticaNeue_07.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src: url('/fonts/HelveticaNeue_01.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'HelveticaNeue', sans-serif;
+  background-color: theme('colors.hcor.black');
+  color: theme('colors.hcor.gray-light');
+}
+
+.hero-section {
+  @apply relative min-h-screen flex items-center justify-center text-white;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/img/Fitness-203.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-link {
+  @apply text-white hover:text-gray-300 transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors duration-200;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: theme('colors.hcor.black');
+}
+
+::-webkit-scrollbar-thumb {
+  background: theme('colors.hcor.red');
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: theme('colors.hcor.red-dark');
+}
+
+/* Card Hover Effects */
+.card-hover {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.card-hover:hover {
+  @apply transform -translate-y-1;
+}
+
+/* Smooth Transitions */
+.smooth-transition {
+  @apply transition-all duration-300 ease-in-out;
+}

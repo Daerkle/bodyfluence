@@ -1,53 +1,92 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: ["class"],
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
+      },
+    },
     extend: {
       colors: {
-        'primary-100': '#1a1a1a',
-        'primary-300': '#2a2a2a',
-        'primary-500': '#3a3a3a',
-        'secondary-400': '#4F46E5',
-        'secondary-500': '#4338CA',
-      },
-      backgroundImage: {
-        'gradient-dark': 'linear-gradient(to bottom, #000000, #111111)',
-        'gradient-primary': 'linear-gradient(to right, #ef4444, #dc2626)',
-        'gradient-secondary': 'linear-gradient(to right, #4F46E5, #4338CA)',
-      },
-      animation: {
-        'gradient': 'gradient 8s linear infinite',
-        'float': 'float 6s ease-in-out infinite',
-        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-      },
-      keyframes: {
-        gradient: {
-          '0%, 100%': {
-            'background-size': '200% 200%',
-            'background-position': 'left center'
-          },
-          '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'right center'
-          },
+        hcor: {
+          black: '#151515',
+          red: '#FF0000',
+          'red-dark': '#CC0000',
+          gray: '#1A1A1A',
+          'gray-light': 'rgba(255,255,255,0.7)',
         },
-        float: {
-          '0%, 100%': {
-            transform: 'translateY(0)',
-          },
-          '50%': {
-            transform: 'translateY(-20px)',
-          },
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
         },
       },
       fontFamily: {
-        'dmsans': ['DM Sans', 'sans-serif'],
-        'montserrat': ['Montserrat', 'sans-serif'],
+        'helvetica-light': ['Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        'helvetica-bold': ['Helvetica Neue Bold', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+      },
+      backgroundImage: {
+        'hero-pattern': "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('/img/fitness-3.webp')",
+      },
+      spacing: {
+        'bloc-lg': '120px',
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      keyframes: {
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 }
